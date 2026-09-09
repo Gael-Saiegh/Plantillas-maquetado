@@ -48,9 +48,79 @@ align-items: center;
         background-color: rgb(255, 255, 255);
         display: flex;
         justify-content: center;
-        align-items: center;
         flex-direction: column;
         
+        
+
+        .pantalla-baja-parte-de-escritura { 
+          width: 100%;
+          height: 40%;
+          display: flex;
+          flex-direction: column; 
+          align-items: center;
+    
+
+          .linea-de-pantalla-baja {
+      
+            height: 18%;
+            width: 70%;
+            margin: 0.5%;
+        background-color: brown;
+          }
+          .escritura {
+            width: 50%;
+            height: 11%;
+            background-color: rgb(173, 173, 173);
+            margin: 0.5% ;
+          }
+          .escritura-chica {
+            width: 40%;
+            height: 11%;
+            background-color: rgb(173, 173, 173);
+           margin: 0.5%;
+          }
+        }
+
+        .pantalla-baja-parte-de-pantallas { 
+          height: 35%;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+         justify-content: center;
+
+          .pantalla-chica { 
+            height: 35%;
+            width: 10%;
+            margin: 1.5%;
+            background-color: rgb(173, 173, 173);
+            
+          }
+        }
+
+        .parte-de-abajo-de-pantalla-baja { 
+          height: 25%;
+          width: 100%;
+          display: flex;
+          flex-direction: row; 
+          justify-content: center;
+         
+          
+           .teo-wengro-escritura { 
+           width: 100%;
+           height: 100%;
+            margin: 0.5% ;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+
+           .valen-suez-reglon-de-escriutra- { 
+            background-color: rgb(173, 173, 173);
+            width: 50%;
+            height: 11%;
+            margin: 0.5% 
+           }
+           }
+        }
     }
     
   }
