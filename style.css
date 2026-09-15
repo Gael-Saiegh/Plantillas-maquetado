@@ -38,8 +38,56 @@ align-items: center;
 
     .pantalla-arriba {
         width: 100%;
-        height: 35%;
-        background-color: rgb(95, 235, 235);
+        height: 50%;
+        background-color: aqua;
+display: flex;
+flex-direction: row;
+  
+.pantalla-arriba-parte-izquierda { 
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .barra-arriba-cuadrado-pantalla-arriba-izquierda { 
+width: 60%;
+height: 20%;
+background-color: brown;
+  }
+
+ .cuadrado-pantalla-arriba-izquierda { 
+  width: 60%;
+height: 70%;
+background-color: rgb(173, 163, 163);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+ 
+  .barra-adentro-pantalla-ariiba-izquierda { 
+    width: 80%;
+    height: 15%;
+    margin: 3%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .barra-distinta-adentro-pantalla-ariiba-izquierda { 
+    width: 80%;
+    height: 15%;
+    margin: 3%;
+    background-color: aqua;
+  }
+ }
+}
+
+.pantalla-arriba-parte-derecha { 
+  width: 70%;
+  height: 100%;
+  
+}
+
 
     }
     .pantalla-abajo {
@@ -86,13 +134,15 @@ align-items: center;
           width: 100%;
           display: flex;
           flex-direction: row;
-         justify-content: center;
+         justify-content: space-around;
+
 
           .pantalla-chica { 
-            height: 35%;
-            width: 10%;
-            margin: 1.5%;
-            background-color: rgb(173, 173, 173);
+            height: 80%;
+            width: 12%;
+            margin: 2%;
+
+            background-color: rgb(49, 192, 192);
             
           }
         }
@@ -113,6 +163,13 @@ align-items: center;
            flex-direction: column;
            align-items: center;
 
+         .nico-eltes-reglon-de-escritura-grande {
+
+     background-color: brown;
+     height: 18%;
+     width: 50%;
+    margin: 1%;
+         }
            .valen-suez-reglon-de-escriutra- { 
             background-color: rgb(173, 173, 173);
             width: 50%;
